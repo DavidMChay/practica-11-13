@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.table-bordered {
+    border: 2px solid #000;
+}
+
+td input {
+    width: 100%;
+    text-align: center;
+}
+
+input[disabled] {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+button {
+    width: 200px;
+}
