@@ -1,0 +1,36 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+}
+
+h2 {
+    color: #007bff;
+}
+
+table {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 1.2rem;
+}

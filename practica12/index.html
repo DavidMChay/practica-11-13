@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen de Ventas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container my-4">
+        <h1 class="text-center">Resumen de Ventas</h1>
+
+        <div class="row my-4">
+            <div class="col-md-12">
+                <h2 class="text-center">Tabla de Ventas</h2>
+                <table class="table table-bordered text-center" id="tablaVentas">
+                    <!-- Aquí se generará la tabla con JavaScript -->
+                </table>
+            </div>
+        </div>
+
+        <div class="row my-4">
+            <div class="col-md-12 text-center">
+                <button class="btn btn-primary" id="calcularVentas">Calcular Ventas</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Resultados:</h2>
+                <p id="ventaMinima"></p>
+                <p id="ventaMaxima"></p>
+                <p id="ventaTotal"></p>
+                <p id="ventaPorDia"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
