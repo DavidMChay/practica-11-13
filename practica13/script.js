@@ -59,12 +59,10 @@ $(document).ready(function() {
         let promedios = [];
         let reprobados = 0;
 
-        // Obtener los promedios por alumno
         calificaciones.forEach(fila => {
             const promedio = obtenerPromedio(fila);
             promedios.push(promedio);
             
-            // Contar parciales reprobados
             fila.forEach(calificacion => {
                 if (calificacion < 7.0) {
                     reprobados++;
@@ -72,11 +70,9 @@ $(document).ready(function() {
             });
         });
 
-        // Calcular el promedio más alto y más bajo
         const promedioMasAlto = Math.max(...promedios);
         const promedioMasBajo = Math.min(...promedios);
 
-        // Distribución de promedios
         const distribucion = {
             '0.0 - 5.9': 0,
             '6.0 - 6.9': 0,
